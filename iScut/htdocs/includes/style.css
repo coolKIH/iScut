@@ -1,0 +1,127 @@
+/*
+	Author	:	Christopher Robinson
+	Email		:	christopher@edg3.co.uk
+	Website	:	http://www.edg3.co.uk/
+*/
+
+/* general */
+
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body{
+	font-family:"Lucida Grande",arial,sans-serif;
+	background:#CDCDCD url(../img/background.jpg) no-repeat fixed top;
+	//background-position-x: 50%;
+	font-family:微软雅黑;	
+}
+
+/* header */
+#header {
+	border-bottom:2px solid #000000;
+	height:60px;
+	margin:0 auto;
+	width:750px;
+}
+#header h1 {
+	color:#888;
+	font-size:200%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-top:-20px;
+	margin-bottom:-40px;
+}
+#header h2 {
+	color:#CCC;
+	font-size:150%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+/* navigation */
+#navigation{
+	text-align:center;
+	margin:0 auto;
+	width:750px;
+	position:relative;
+}
+#navigation li{
+	width:149px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+}
+
+#navigation ul{
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+
+#navigation a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#navigation p{
+	padding:0px 5px;
+}
+
+#navigation .subtext{
+	padding-top:15px;
+}
+
+#navigation .green, .ngreen{background:#6AA63B;}
+#navigation .yellow, .nyellow{background:#FBC700;}
+#navigation .nred{background:#D52100;}
+#navigation .purple,.npurple{background:#5122B4;}
+#navigation .blue{background:#0292C0;}
+
+#navigation .div1{
+		
+}
+
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:751px;
+	margin-top:125px;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+	margin:0 auto;
+}
+#content p {
+	padding:20px 20px 0;
+}
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:751px;
+}
+
+/* Added by Larry Ullman: */
+.error {
+	font-weight: bold;
+	color: #C00
+}
