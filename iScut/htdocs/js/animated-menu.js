@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".green, .yellow, .red, .blue, .purple").mouseover(function(){
 		var count = this.childElementCount;
-		var actualheight = 50*count+"px";
+		var actualheight = 55*count+"px";
 		$(this).stop().animate({height:actualheight},{queue:false,duration:600,easing:'easeOutBounce'});
 	});
 	

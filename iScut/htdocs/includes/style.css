@@ -93,6 +93,12 @@ body{
 		
 }
 
+#scut_img{
+	width:100%;
+	margin:0 auto;
+	border:1px solid gray;
+}
+
 #content {
 	height:auto;
 	margin:0 auto;
